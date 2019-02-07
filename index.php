@@ -1,1 +1,1 @@
-<?php header( 'Location: /' ) ;  ?>
+echo '<?php include_once("home.html"); ?>' > index.php
