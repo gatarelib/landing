@@ -25,11 +25,10 @@
   <body>
 
     <!-- Header Section Start -->
-    <header id="home" class="hero-area">    
-      <div class="overlay"></div>
+    <header id="home">    
       <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
         <div class="container">
-          <a href="index.html" class="navbar-brand"><img src="img/logo.png" alt=""></a>       
+          <a href="index.html" class="navbar-brand"><img src="img/logo.png" alt=""></a>     
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="lni-menu"></i>
           </button>
@@ -39,112 +38,161 @@
                 <a class="nav-link page-scroll" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#features">Features</a>
+                <a class="nav-link page-scroll" href="#about">About</a>
               </li>  
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#screenshots">Screenshots</a>
-              </li>                            
+                <a class="nav-link page-scroll" href="#services">Services</a>
+              </li>                  
+              <li class="nav-item">
+                <a class="nav-link page-scroll" href="#portfolios">Portfolio</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link page-scroll" href="#team">Team</a>
-              </li>       
+              </li>  
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#testimonial">Testimonial</a>
-              </li>     
+                <a class="nav-link page-scroll" href="#pricing">Pricing</a>
+              </li>  
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#download">Download</a>
+                <a class="nav-link page-scroll" href="#blog">Blog</a>
               </li> 
               <li class="nav-item">
                 <a class="nav-link page-scroll" href="#map-area">Contact</a>
               </li> 
-              <li class="nav-item">
-                <a class="btn btn-trial" href="#">Join Now</a>
-              </li>
             </ul>
           </div>
         </div>
       </nav>  
-      <div class="container">      
-        <div class="row space-100">
-          <div class="col-lg-7 col-md-12 col-xs-12">
-            <div class="contents">
-              <h2 class="head-title">Creative Solution for <br>SaaS, Business, and Apps</h2>
-              <p>Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change. Enthusiastically architect adaptive e-tailers after sustainable total linkage.</p>
-              <div class="header-button">
-                <a href="#" class="btn btn-border-filled">Get Started</a>
-                <a href="#" class="btn btn-border">Learn More</a>
+      <!-- Main Carousel Section -->
+      <div id="carousel-area">
+        <div id="carousel-slider" class="carousel slide carousel-fade" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-slider" data-slide-to="1"></li>
+            <li data-target="#carousel-slider" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item carousel-agency active">
+              <img src="img/slider/img-1.jpg" alt="">
+              <div class="overlay"></div>
+              <div class="carousel-caption text-left">
+                <h2 class="wow fadeInRight" data-wow-delay="0.4s">Leading Agency <br>in Los Los Angeles</h2>
+                <p class="wow fadeInRight" data-wow-delay="0.6s">Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change. <br>Enthusiastically architect adaptive e-tailers after sustainable total linkage.</p>
+                <a href="#" class="btn btn-lg btn-common btn-effect wow fadeInRight" data-wow-delay="0.9s">Read More</a>
+                <a href="#" class="btn btn-lg btn-border wow fadeInRight" data-wow-delay="0.9s">Contact Us</a>
+              </div>
+            </div>
+            <div class="carousel-item carousel-agency">
+              <img src="img/slider/img-2.jpg" alt="">
+              <div class="overlay"></div>
+              <div class="carousel-caption text-right">
+                <h2 class="wow fadeInLeft" data-wow-delay="0.6s">Highly-experienced &<br>Amazing Team</h2> 
+                <p class="wow fadeInUp" data-wow-delay="0.9s">Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change. <br>Enthusiastically architect adaptive e-tailers after sustainable total linkage.</p>
+                <a href="#" class="btn btn-lg btn-border-filled wow fadeInUp" data-wow-delay="1.2s">Learn How</a>
+              </div>
+            </div>
+            <div class="carousel-item carousel-agency">
+              <img src="img/slider/img-3.jpg" alt="">
+              <div class="overlay"></div>
+              <div class="carousel-caption text-left">
+                <h2 class="wow fadeInRight" data-wow-delay="0.6s">Creating New Trends<br> in Market</h2> 
+                <p class="wow fadeInUp" data-wow-delay="0.6s">Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change. <br>Enthusiastically architect adaptive e-tailers after sustainable total linkage</p>
+                <a href="#" class="btn btn-lg btn-border wow fadeInUp" data-wow-delay="0.9s">View Works</a>
               </div>
             </div>
           </div>
-          <div class="col-lg-5 col-md-12 col-xs-12">
-            <div class="intro-img">
-              <img src="img/intro.png" alt="">
-            </div>            
-          </div>
-        </div> 
-      </div>             
+          <a class="carousel-control-prev" href="#carousel-slider" role="button" data-slide="prev">
+            <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-left"></i></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel-slider" role="button" data-slide="next">
+            <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-right"></i></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>    
+      <!-- Main Carousel End -->          
     </header>
     <!-- Header Section End --> 
 
+    <!-- About Section Start -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-lg-5 col-md-12 col-xs-12">
+            <div class="about-content">  
+              <div>    
+                <h3>About Company</h3>
+                <h5>Lorem Ipsum Dolor Sit. Consectet Adl !</h5>
+                <div class="desc-text">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet autem beatae enim fuga laudantium voluptatibus, a officiis minus necessitatibus obcaecati quis itaque voluptas saepe, neque, repellendus amet veniam culpa ea.</p>
+                </div>
+              </div> 
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-xs-12 wow fadeInRight" data-wow-delay="0.3s">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-xs-12">
+                <div class="about-img">  
+                  <img class="img-fluid" src="img/about/img1.jpg" alt="">
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-xs-12">
+                <div class="about-img">  
+                  <img class="img-fluid" src="img/about/img2.jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5 justify-content-around">
+          <div class="col-lg-5 col-md-12 col-xs-12 wow fadeInRight" data-wow-delay="0.4s">
+            <div class="about-img-lg">  
+              <img class="img-fluid" src="img/about/img3.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-xs-12">
+            <div class="about-content wow fadeInLeft" data-wow-delay="0.3s">  
+              <div>
+                <div class="desc-text">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ipsam consectetur placeat. Voluptatum in dicta, iste error quos libero, illum saepe assumenda commodi eaque, sequi beatae quasi voluptate id nobis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum quae deleniti voluptatibus voluptates fugiat harum molestias vitae repudiandae maiores</p>
+                  <p>Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change. Enthusiastically architect adaptive e-tailers after sustainable total linkage. </p>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
     <!-- Services Section Start -->
-    <section id="services" class="section">
+    <section id="services" class="feature-content section">
       <div class="container">
         <div class="section-header">   
-          <p class="btn btn-subtitle wow fadeInDown" data-wow-delay="0.2s">Features</p>       
-          <h2 class="section-title">Explore Amazing Features</h2>
+          <p class="btn btn-subtitle wow fadeInDown" data-wow-delay="0.2s">services</p>       
+          <h2 class="section-title">Our Services</h2>
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="services-item wow fadeInDown" data-wow-delay="0.2s">
-              <div class="icon">
-                <i class="lni-star"></i>
-              </div>
-              <h4>Easy to Use</h4>
-              <p>Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change. Enthusiastically.</p>
+            <div class="single-feature">
+              <i class="lni-leaf"></i>
+              <h4>web Designing</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam quis.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="services-item wow fadeInDown" data-wow-delay="0.4s">
-              <div class="icon">
-                <i class="lni-pie-chart"></i>
-              </div>
-              <h4>Business Analysis</h4>
-              <p>Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change. Enthusiastically.</p>
+            <div class="single-feature">
+              <i class="lni-camera"></i>
+              <h4>web Photography</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam quis.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="services-item wow fadeInDown" data-wow-delay="0.6s">
-              <div class="icon">
-                <i class="lni-shield"></i>
-              </div>
-              <h4>Robust Security</h4>
-              <p>Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change. Enthusiastically.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="services-item wow fadeInDown" data-wow-delay="0.8s">
-              <div class="icon">
-                <i class="lni-cog"></i>
-              </div>
-              <h4>Tons of Options</h4>
-              <p>Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change. Enthusiastically.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="services-item wow fadeInDown" data-wow-delay="1s">
-              <div class="icon">
-                <i class="lni-cloud-download"></i>
-              </div>
-              <h4>Free Updates</h4>
-              <p>Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change. Enthusiastically.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="services-item wow fadeInDown" data-wow-delay="1.2s">
-              <div class="icon">
-                <i class="lni-headphone-alt"></i>
-              </div>
-              <h4>24/7 Support</h4>
-              <p>Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change. Enthusiastically.</p>
+            <div class="single-feature">
+              <i class="lni-pencil-alt"></i>
+              <h4>Art Direction</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam quis.</p>
             </div>
           </div>
         </div>
@@ -152,200 +200,181 @@
     </section>
     <!-- Services Section End -->
 
-    <!-- features Section Start -->
-    <div id="features" class="section">
-      <div class="container">
-        <div class="section-header">   
-          <p class="btn btn-subtitle wow fadeInDown" data-wow-delay="0.2s">why</p>       
-          <h2 class="section-title wow fadeIn" data-wow-delay="0.2s">Fast & Awesome Interface</h2>
-        </div>
-        <div class="row justify-content-center"> 
-          <div class="col-lg-8 col-md-12 col-xs-12">
-            <div class="feature-thumb wow fadeInDown" data-wow-delay="0.3s">
-              <img class="img-fluid" src="img/macbook.png" alt="">
-            </div>
-            <div class="feature-content">
-              <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item">
-                  <a class="nav-link active" id="free-tab" data-toggle="tab" href="#free" role="tab" aria-controls="free" aria-selected="true"><i class="lni-star"></i> <br> Easy Start</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="massaging-tab" data-toggle="tab" href="#massaging" role="tab" aria-controls="massaging" aria-selected="false"><i class="lni-bubble"></i> <br> Messaging</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="safely-tab" data-toggle="tab" href="#safely" role="tab" aria-controls="safely" aria-selected="false"><i class="lni-shield"></i> <br> Data Safety</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="support-tab" data-toggle="tab" href="#support" role="tab" aria-controls="support" aria-selected="false"><i class="lni-headphone-alt"></i> <br> 24/7 Support</a>
-                </li>
-              </ul>
-              <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="free" role="tabpanel" aria-labelledby="free-tab">Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change. Enthusiastically architect adaptive e-tailers after sustainable total linkage. Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change.</div>
-                <div class="tab-pane fade" id="massaging" role="tabpanel" aria-labelledby="massaging-tab">Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change. Enthusiastically architect adaptive e-tailers after sustainable total linkage. Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change.</div>
-                <div class="tab-pane fade" id="safely" role="tabpanel" aria-labelledby="safely-tab">Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change. Enthusiastically architect adaptive e-tailers after sustainable total linkage. Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change.</div>
-                <div class="tab-pane fade" id="support" role="tabpanel" aria-labelledby="support-tab">Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change. Enthusiastically architect adaptive e-tailers after sustainable total linkage. Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change.</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- features Section End -->
-
-    <!-- Counter Section Start -->
-    <section id="counter" class="section">
+    <!-- Start Video promo Section -->
+    <section class="video-promo section">
+      <div class="overlay"></div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-md-6 col-xs-12">
-            <div class="counter-text">  
-              <div>
-                <p class="btn btn-subtitle">Counter</p>       
-                <h3>Our World Wide Customers</h3>
-                <div class="desc-text">
-                  <p>Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change. Enthusiastically architect adaptive e-tailers after sustainable total linkage. </p>
-                  <p>Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change. </p>
-                </div>
-              </div> 
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-xs-12">
-            <div class="row">
-              <!-- Start counter -->
-              <div class="col-lg-6 col-md-6 col-xs-12">
-                <div class="counter-box bg-color-1">
-                  <div class="fact-count">
-                    <h3><span class="counter">23576</span></h3>
-                    <p>Users</p>
-                  </div>
-                  <div class="icon-o"><i class="lni-users"></i></div>
-                </div>
-              </div>
-              <!-- End counter -->
-              <!-- Start counter -->
-              <div class="col-lg-6 col-md-6 col-xs-12">
-                <div class="counter-box bg-color-2">
-                  <div class="fact-count">
-                    <h3><span class="counter">2124</span></h3>
-                    <p>Positive Reviews</p>
-                  </div>
-                  <div class="icon-o"><i class="lni-emoji-smile"></i></div>
-                </div>
-              </div>
-              <!-- End counter -->
-              <!-- Start counter -->
-              <div class="col-lg-6 col-md-6 col-xs-12">
-                <div class="counter-box bg-color-3">
-                  <div class="fact-count">
-                    <h3><span class="counter">54598</span></h3>
-                    <p>Downloads</p>
-                  </div>
-                  <div class="icon-o"><i class="lni-download"></i></div>
-                </div>
-              </div>
-              <!-- End counter -->
-              <!-- Start counter -->
-              <div class="col-lg-6 col-md-6 col-xs-12">
-                <div class="counter-box bg-color-4">
-                  <div class="fact-count">
-                    <h3><span class="counter">3212</span></h3>
-                    <p>Followers</p>
-                  </div>
-                  <div class="icon-o"><i class="lni-thumbs-up"></i></div>
-                </div>
-              </div>
-              <!-- End counter -->
+          <div class="col-md-12 col-sm-12">
+            <div class="video-promo-content text-center">
+            	<h2>Creativity Passion Desire</h2>
+            	<p>
+            		Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has <br> been the industry's standard dummy text ever.
+            	</p>
+              <a href="https://www.youtube.com/watch?v=uLkkNcAk6tE" class="video-popup mt-3"><i class="lni-video"></i></a>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Counter Section End --> 
+    <!-- End Video Promo Section -->
 
-    <!-- Features Section Start -->
-    <div id="features-two" class="section">
+    <!-- Portfolio Section -->
+    <section id="portfolios" class="section">
+      <!-- Container Starts -->
       <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-12 col-sm-12">
-            <div class="img-thumb wow fadeInLeft" data-wow-delay="0.3s">
-              <img class="img-fluid" src="img/features/img2.png" alt="">
+      	<div class="section-header">   
+          <p class="btn btn-subtitle wow fadeInDown" data-wow-delay="0.2s">Portfolio</p>       
+          <h2 class="section-title">Latest Works</h2>
+        </div>
+        <div class="row">          
+          <div class="col-md-12">
+            <!-- Portfolio Controller/Buttons -->
+            <div class="controls text-center">
+              <a class="filter active" data-filter="all">
+                All 
+              </a>
+              <a class="filter" data-filter=".design">
+                Web Design 
+              </a>
+              <a class="filter" data-filter=".development">
+                Art Direction
+              </a>
+              <a class="filter" data-filter=".print">
+                Creative
+              </a>
+            </div>
+            <!-- Portfolio Controller/Buttons Ends-->
+          </div>
+        </div>
+
+        <!-- Portfolio Recent Projects -->
+        <div id="portfolio" class="row">
+          <div class="col-lg-4 col-md-6 col-xs-12 mix development print">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="img/portfolio/img1.jpg" alt="" />  
+                <div class="single-content">
+                  <div class="fancy-table">
+                    <div class="table-cell">
+                      <div class="zoom-icon">
+                        <a class="lightbox" href="img/portfolio/img1.jpg"><i class="lni-eye item-icon"></i></a>
+                      </div>
+                      <div class="single-text">
+                      	<h5>Project Name</h5>
+                      	<p>Branding</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>               
             </div>
           </div>
-          <div class="col-lg-6 col-md-12 col-sm-12">
-            <div class="text-wrapper wow fadeInRight" data-wow-delay="0.6s">
-              <div>
-                <p class="btn btn-subtitle">How It Works?</p>  
-                <h3>Refreshing Design</h3>
-                <p>Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change. Enthusiastically architect adaptive e-tailers after sustainable total linkage.</p>
-                <a class="btn btn-rm" href="#">Read More <i class="lni-arrow-right"></i></a>
-              </div>
+          <div class="col-lg-4 col-md-6 col-xs-12 mix design print">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="img/portfolio/img2.jpg" alt="" /> 
+                <div class="single-content">
+                  <div class="fancy-table">
+                    <div class="table-cell">
+                      <div class="zoom-icon">
+                        <a class="lightbox" href="img/portfolio/img2.jpg"><i class="lni-eye item-icon"></i></a>
+                      </div>
+                      <div class="single-text">
+                      	<h5>Project Name</h5>
+                      	<p>Branding</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>               
             </div>
           </div>
-          <div class="col-lg-6 col-md-12 col-sm-12">
-            <div class="text-wrapper wow fadeInRight" data-wow-delay="0.9s">
-              <div>
-                <p class="btn btn-subtitle">Dashboard</p>  
-                <h3>Track Your Business</h3>
-                <p>Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change. Enthusiastically architect adaptive e-tailers after sustainable total linkage.</p>
-                <a class="btn btn-rm" href="#">Read More <i class="lni-arrow-right"></i></a>
-              </div>
+          <div class="col-lg-4 col-md-6 col-xs-12 mix development">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="img/portfolio/img3.jpg" alt="" />  
+                <div class="single-content">
+                  <div class="fancy-table">
+                    <div class="table-cell">
+                      <div class="zoom-icon">
+                        <a class="lightbox" href="img/portfolio/img3.jpg"><i class="lni-eye item-icon"></i></a>
+                      </div>
+                      <div class="single-text">
+                      	<h5>Project Name</h5>
+                      	<p>Branding</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>               
             </div>
           </div>
-           <div class="col-lg-6 col-md-12 col-sm-12">
-            <div class="img-thumb wow fadeInLeft" data-wow-delay="1.2s">
-              <img class="img-fluid" src="img/features/img1.png" alt="">
+          <div class="col-lg-4 col-md-6 col-xs-12 mix development design">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="img/portfolio/img4.jpg" alt="" /> 
+                <div class="single-content">
+                  <div class="fancy-table">
+                    <div class="table-cell">
+                      <div class="zoom-icon">
+                        <a class="lightbox" href="img/portfolio/img4.jpg"><i class="lni-eye item-icon"></i></a>
+                      </div>
+                      <div class="single-text">
+                      	<h5>Project Name</h5>
+                      	<p>Branding</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>               
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12 mix development">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="img/portfolio/img5.jpg" alt="" />  
+                <div class="single-content">
+                  <div class="fancy-table">
+                    <div class="table-cell">
+                      <div class="zoom-icon">
+                        <a class="lightbox" href="img/portfolio/img5.jpg"><i class="lni-eye item-icon"></i></a>
+                      </div>
+                      <div class="single-text">
+                      	<h5>Project Name</h5>
+                      	<p>Branding</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>               
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12 mix print design">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="img/portfolio/img6.jpg" alt="" />  
+                <div class="single-content">
+                  <div class="fancy-table">
+                    <div class="table-cell">
+                      <div class="zoom-icon">
+                        <a class="lightbox" href="img/portfolio/img6.jpg"><i class="lni-eye item-icon"></i></a>
+                      </div>
+                      <div class="single-text">
+                      	<h5>Project Name</h5>
+                      	<p>Branding</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>               
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- Features Section End -->   
-
-    <!-- Awesome Screens Section Start -->
-    <section id="screenshots" class="screens-shot section">
-      <div class="container">
-        <div class="section-header">   
-          <p class="btn btn-subtitle wow fadeInDown" data-wow-delay="0.2s">Screenshots</p>       
-          <h2 class="section-title">Our Awesome Screens</h2>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-12 col-md-12 col-xs-12">
-            <div class="screens-slider owl-carousel">
-              <div class="item">
-                <div class="screenshot-thumb">
-                  <img src="img/screens/img-1.jpg" alt="" />
-                </div>
-              </div>
-              <div class="item">
-                <div class="screenshot-thumb">
-                  <img src="img/screens/img-2.jpg" alt="" />
-                </div>
-              </div>
-              <div class="item">
-                <div class="screenshot-thumb">
-                  <img src="img/screens/img-3.jpg" alt="" />
-                </div>
-              </div>
-              <div class="item">
-                <div class="screenshot-thumb">
-                  <img src="img/screens/img-1.jpg" alt="" />
-                </div>
-              </div>
-              <div class="item">
-                <div class="screenshot-thumb">
-                  <img src="img/screens/img-2.jpg" alt="" />
-                </div>
-              </div>
-              <div class="item">
-                <div class="screenshot-thumb">
-                  <img src="img/screens/img-3.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <!-- Container Ends -->
     </section>
-    <!-- Awesome Screens Section End -->  
+    <!-- Portfolio Section Ends --> 
 
     <!-- Team section Start -->
     <section id="team" class="section">
@@ -356,7 +385,7 @@
         </div>
         <div class="row">
           <div class="col-lg-3 col-md-6 col-xs-12">
-            <div class="single-team">
+            <div class="single-team wow fadeInUp" data-wow-delay="0.2s">
               <div class="team-thumb">
                 <img src="img/team/team1.jpg" alt="">
                 <ul class="social-list">
@@ -369,13 +398,13 @@
               <div class="team-details">
                 <div class="team-inner">
                   <h4 class="team-title">Mark Parker</h4>
-                  <p>Software Engineer</p>
+                  <p>UX Consultant</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-xs-12">
-            <div class="single-team">
+            <div class="single-team wow fadeInUp" data-wow-delay="0.3s">
               <div class="team-thumb">
                 <img src="img/team/team2.jpg" alt="">
                 <ul class="social-list">
@@ -388,13 +417,13 @@
               <div class="team-details">
                 <div class="team-inner">
                   <h4 class="team-title">Jhon Deo</h4>
-                  <p>Front-end Developer</p>
+                  <p>Web Developer</p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-xs-12">
-            <div class="single-team">
+            <div class="single-team wow fadeInUp" data-wow-delay="0.4s">
               <div class="team-thumb">
                 <img src="img/team/team3.jpg" alt="">
                 <ul class="social-list">
@@ -413,7 +442,7 @@
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-xs-12">
-            <div class="single-team">
+            <div class="single-team wow fadeInUp" data-wow-delay="0.5s">
               <div class="team-thumb">
                 <img src="img/team/team4.jpg" alt="">
                 <ul class="social-list">
@@ -441,7 +470,7 @@
       <div class="container">
         <div class="section-header">   
           <p class="btn btn-subtitle wow fadeInDown" data-wow-delay="0.2s">Reviews</p>       
-          <h2 class="section-title">Clients Who Loved Us</h2>
+          <h2 class="section-title wow fadeIn" data-wow-delay="0.2s">Clients Who Loved Us</h2>
         </div>
         <div class="row justify-content-center">
           <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
@@ -559,6 +588,153 @@
     </div>
     <!-- Client Section End --> 
 
+		<!-- Offer Section Start -->
+    <section class="offer-area section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="offer">
+							<h2>Ready to make awesome project today?</h2>
+							<a href="#contact" class="btn btn-common btn-effect">Contact Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Offer Section End -->
+
+    <!-- Counter Section Start -->
+    <section id="counter" class="section">
+      <div class="container">
+       	<div class="row">
+          <!-- Start counter -->
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="counter-box bg-color-1">
+              <div class="fact-count">
+                <h3><span class="counter">2346</span></h3>
+                <p>COMPLETE PROJECTS</p>
+              </div>
+            </div>
+          </div>
+          <!-- End counter -->
+          <!-- Start counter -->
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="counter-box bg-color-2">
+              <div class="fact-count">
+                <h3><span class="counter">1914</span></h3>
+                <p>HAPPY CLIENTS</p>
+              </div>
+            </div>
+          </div>
+          <!-- End counter -->
+          <!-- Start counter -->
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="counter-box bg-color-3">
+              <div class="fact-count">
+                <h3><span class="counter">18</span>K</h3>
+                <p>CUP OF COFFEES</p>
+              </div>
+            </div>
+          </div>
+          <!-- End counter -->
+          <!-- Start counter -->
+          <div class="col-lg-3 col-md-6 col-xs-12">
+            <div class="counter-box bg-color-4">
+              <div class="fact-count">
+                <h3><span class="counter">54</span></h3>
+                <p>AWARDS</p>
+              </div>
+            </div>
+          </div>
+          <!-- End counter -->
+        </div>
+      </div>
+    </section>
+    <!-- Counter Section End --> 
+
+    <!-- Start Pricing Table Section -->
+    <div id="pricing" class="section pricing-section">
+      <div class="container">
+        <div class="section-header">   
+          <p class="btn btn-subtitle wow fadeInDown" data-wow-delay="0.2s">Pricing Plan</p>       
+          <h2 class="section-title">Our Pricing Plan</h2>
+        </div>
+
+        <div class="row pricing-tables">
+          <div class="col-lg-4 col-md-4 col-xs-12">
+            <div class="pricing-table">
+              <div class="pricing-details">
+                <div class="icon">
+                  <i class="lni-rocket"></i>
+                </div>
+                <h2>Free</h2>
+                <ul>
+                  <li>Free Installation</li>
+                  <li>Social Media Marketing</li>
+                  <li>1 Website</li>
+                  <li>1 GB Storage</li>
+                  <li>-</li>
+                  <li>-</li>
+                </ul>
+                <div class="price">$49<span>/mo</span></div>
+              </div>
+              <div class="plan-button">
+                <a href="#" class="btn btn-border">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-xs-12">
+            <div class="pricing-table pricing-active">
+              <div class="pricing-details">
+                <div class="icon">
+                  <i class="lni-drop"></i>
+                </div>
+                <h2>Standard</h2>
+                <ul>
+                  <li>Free Installation</li>
+                  <li>Social Media Marketing</li>
+                  <li>1 Website</li>
+                  <li>5 GB Storage</li>
+                  <li>Email Marketing</li>
+                  <li>-</li>
+                </ul>
+                <div class="price">$99<span>/mo</span></div>
+              </div>
+              <div class="plan-button">
+                <a href="#" class="btn btn-border">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-xs-12">
+            <div class="pricing-table">
+              <div class="pricing-details">
+                <div class="icon">
+                  <i class="lni-briefcase"></i>
+                </div>
+                <h2>Business</h2>
+                <ul>
+                  <li>Free Installation</li>
+                  <li>Social Media Marketing</li>
+                  <li>1 Website</li>
+                  <li>5 GB Storage</li>
+                  <li>Email Marketing</li>
+                  <li>24/7 Support</li>
+                </ul>
+                <div class="price">$199<span>/mo</span></div>
+              </div>
+              <div class="plan-button">
+                <a href="#" class="btn btn-border">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- End Pricing Table Section -->
+
     <!-- Subcribe Section Start -->
     <div id="subscribe" class="section">
       <div class="container">
@@ -587,117 +763,6 @@
       </div>
     </div>
     <!-- Subcribe Section End -->
-
-    <!-- Start Pricing Table Section -->
-    <div id="pricing" class="section pricing-section">
-      <div class="container">
-        <div class="section-header">   
-          <p class="btn btn-subtitle wow fadeInDown" data-wow-delay="0.2s">Pricing Plan</p>       
-          <h2 class="section-title">Our Pricing Plan</h2>
-        </div>
-
-        <div class="row pricing-tables">
-          <div class="col-lg-4 col-md-4 col-xs-12">
-            <div class="pricing-table">
-              <div class="pricing-details">
-                <div class="icon">
-                  <i class="lni-rocket"></i>
-                </div>
-                <h2>Free</h2>
-                <ul>
-                  <li>Free Installation</li>
-                  <li>2 GB Storage</li>
-                  <li>Single User</li>
-                  <li>Sales Dashboard</li>
-                  <li>Minimal Features</li>
-                  <li>1000 Logs</li>
-                </ul>
-                <div class="price">$0<span>/mo</span></div>
-              </div>
-              <div class="plan-button">
-                <a href="#" class="btn btn-border">Get Started</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-4 col-xs-12">
-            <div class="pricing-table pricing-active">
-              <div class="pricing-details">
-                <div class="icon">
-                  <i class="lni-drop"></i>
-                </div>
-                <h2>Standard</h2>
-                <ul>
-                  <li>Free Installation</li>
-                  <li>10 GB Hosting</li>
-                  <li>5 Users</li>
-                  <li>Sales Dashboard</li>
-                  <li>Premium Features</li>
-                  <li>50,000 Logs</li>
-                </ul>
-                <div class="price">$99 <span>/mo</span></div>
-              </div>
-              <div class="plan-button">
-                <a href="#" class="btn btn-border">Get Started</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-4 col-xs-12">
-            <div class="pricing-table">
-              <div class="pricing-details">
-                <div class="icon">
-                  <i class="lni-briefcase"></i>
-                </div>
-                <h2>Business</h2>
-                <ul>
-                  <li>Free Installation</li>
-                  <li>50 GB Hosting</li>
-                  <li>Unlimited Users</li>
-                  <li>Sales and Marketing Dashbaord</li>
-                  <li>Premium Features</li>
-                  <li>Unlimited Logs</li>
-                </ul>
-                <div class="price">$199 <span>/mo</span></div>
-              </div>
-              <div class="plan-button">
-                <a href="#" class="btn btn-border">Get Started</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <!-- End Pricing Table Section -->
-
-    <!-- download Section Start -->
-    <section id="download">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-xs-12">            
-            <div class="download-thumb wow fadeInLeft" data-wow-delay="0.2s">
-              <img class="img-fluid" src="img/mac.png" alt="">
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-xs-12">
-            <div class="download-wrapper wow fadeInRight" data-wow-delay="0.2s">
-              <div>
-                <div class="download-text">
-                  <h4>Download Our App From Store</h4>
-                  <p>Appropriately implement one-to-one catalysts for change vis-a-vis wireless catalysts for change. Enthusiastically architect adaptive.</p>
-                </div>
-                <div class="header-button">
-                <a href="#" class="btn btn-border"><i class="lni-apple"></i> AppStore</a>
-                <a href="#" class="btn btn-common btn-effect"><i class="lni-android"></i> PlayStore</a>
-              </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- download Section Start -->
 
     <!-- Blog Section -->
     <section id="blog" class="section">
@@ -794,47 +859,81 @@
     <section id="contact">      
       <div class="contact-form">
         <div class="container">
-          <div class="row justify-content-center"> 
+          <div class="row"> 
             <div class="offset-top">
               <div class="col-lg-12 col-md-12 col-xs-12">
                 <div class="contact-block wow fadeInUp" data-wow-delay="0.2s">
                   <div class="section-header">   
                     <p class="btn btn-subtitle wow fadeInDown" data-wow-delay="0.2s">Contact</p>       
                     <h2 class="section-title">Love to Hear From You</h2>
+                  </div>                  <div class="row">
+                  	<div class="col-lg-9 col-md-12 col-xs-12">
+                  		<form id="contactForm">
+		                    <div class="row text-left">
+		                      <div class="col-md-6">
+		                        <div class="form-group">
+		                          <input type="text" class="form-control text-left" id="name" name="name" placeholder="Name" required data-error="Please enter your name">
+		                          <div class="help-block with-errors"></div>
+		                        </div>                                 
+		                      </div>
+		                      <div class="col-md-6">
+		                        <div class="form-group">
+		                          <input type="text" placeholder="Email" id="email" class="form-control text-left" name="name" required data-error="Please enter your email">
+		                          <div class="help-block with-errors"></div>
+		                        </div> 
+		                      </div>
+		                      <div class="col-md-12">
+		                        <div class="form-group">
+		                          <input type="text" placeholder="Subject" id="msg_subject" class="form-control text-left" required="" data-error="Please enter your subject">
+		                          <div class="help-block with-errors"></div>
+		                        </div>
+		                      </div>
+		                      <div class="col-md-12">
+		                        <div class="form-group"> 
+		                          <textarea class="form-control" id="message" placeholder="Message" rows="7" data-error="Write your message" required></textarea>
+		                          <div class="help-block with-errors"></div>
+		                        </div>
+		                        <div class="submit-button">
+		                          <button class="btn btn-common btn-effect" id="submit" type="submit">Submit</button>
+		                          <div id="msgSubmit" class="h3 hidden"></div> 
+		                          <div class="clearfix"></div> 
+		                        </div>
+		                      </div>
+		                    </div>            
+		                  </form>
+                  	</div>
+                  	<div class="col-lg-3 col-md-12 col-xs-12">
+				              <div class="contact-deatils text-left">
+				                <!-- Content Info -->
+				                <div class="contact-info_area">
+				                  <div class="contact-info">
+				                    <i class="lni-map"></i>
+				                    <h5>Address:</h5>
+				                    <p>425 Cowly Brown Road Block 4 / 2C, New York 10013, USA.</p>
+				                  </div>
+				                  <!-- Content Info -->
+				                  <div class="contact-info">
+				                    <i class="lni-envelope"></i>
+				                    <h5>E-mail</h5>
+				                    <p>info@example.com</p>
+				                  </div>
+				                  <!-- Content Info -->
+				                  <div class="contact-info">
+				                    <i class="lni-phone"></i>
+				                    <h5>Quick Contact:</h5>
+				                    <p>+48 123 456 789</p>
+				                  </div>
+				                  <!-- Icon -->
+				                  <ul class="contact-social">
+				                    <li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
+				                    <li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
+				                    <li><a class="linkedin" href="#"><i class="lni-linkedin-fill"></i></a></li>
+				                    <li><a class="google-plus" href="#"><i class="lni-google-plus"></i></a></li>
+				                  </ul>
+				                </div>
+				              </div>
+				            </div>
                   </div>
-                  <form id="contactForm">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <input type="text" class="form-control" id="name" name="name" placeholder="Name" required data-error="Please enter your name">
-                          <div class="help-block with-errors"></div>
-                        </div>                                 
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <input type="text" placeholder="Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
-                          <div class="help-block with-errors"></div>
-                        </div> 
-                      </div>
-                      <div class="col-md-12">
-                        <div class="form-group">
-                          <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required="" data-error="Please enter your subject">
-                          <div class="help-block with-errors"></div>
-                        </div>
-                      </div>
-                      <div class="col-md-12">
-                        <div class="form-group"> 
-                          <textarea class="form-control" id="message" placeholder="Message" rows="7" data-error="Write your message" required></textarea>
-                          <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="submit-button">
-                          <button class="btn btn-common btn-effect" id="submit" type="submit">Submit</button>
-                          <div id="msgSubmit" class="h3 hidden"></div> 
-                          <div class="clearfix"></div> 
-                        </div>
-                      </div>
-                    </div>            
-                  </form>
                 </div>
               </div>
             </div> 
@@ -897,7 +996,7 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="site-info float-left">
-                  <p>Crafted by <a href="http://uideck.com" rel="nofollow">UIdeck</a></p>
+                  <p>&copy; 2020 - Designed by <a href="http://uideck.com" rel="nofollow">UIdeck</a></p>
                 </div>              
                 <div class="float-right">  
                   <ul class="footer-social">
@@ -942,7 +1041,7 @@
     <script src="js/jquery.counterup.min.js"></script>     
     <script src="js/nivo-lightbox.js"></script>     
     <script src="js/jquery.magnific-popup.min.js"></script>     
-    <script src="js/waypoints.min.js"></script>     
+    <script src="js/waypoints.min.js"></script>      
     <script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script>   
     <script src="js/main.js"></script>
